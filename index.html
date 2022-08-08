@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script type="module" src="./index.js"></script>
+    <title>Awesome Books with ES6</title>
+</head>
+<body>
+    <div class="container">
+        <nav><span>Awesome Books</span><span><a id="list" href="#">List</a>    |    <a id="add-new" href="#">Add New</a>    |    <a id="contact" href="#">Contact</a></span></nav>
+        <div id="date"></div><br>
+        <section class="list">
+          <h1>All Awesome Books</h1><br>
+          <div class="list-wrapper"></div>
+        </section>
+        <section class="add-new">
+          <form id="bookForm">
+            <h1>Add a new book</h1>
+            <input type="text" name="title" id="title" placeholder="Title"><br>
+                <small class="title-check invalid">Field is required</small>
+                <br>
+                <input type="text" name="author" id="author" placeholder="Author"><br>
+                <small class="author-check invalid">Field is required</small><br>
+                <button class="submit-btn" type="submit">Add</button>
+          </form>
+        </section>
+        <section class="contact">
+          <h1>Contact Information</h1>
+          <br>
+        <div class="contact-wrp">
+            <p class="contact-items">Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+            <br>
+            <ul class="contact-items">
+                <li>Our email: debmirmij@gmail.com</li>
+                <li>Our phone number: 251925924362</li>
+                <li>Our address: Bole, Addis Ababa, Ethiopia</li>
+                <li>Our address: Buea, Cameroon</li>
+            </ul>
+        </div>
+        </section>
+        <footer>
+            <span>Copyright &copy; 2022, Some rights reserved!</span>
+        </footer>
+    </div>
+</body>
+</html>
