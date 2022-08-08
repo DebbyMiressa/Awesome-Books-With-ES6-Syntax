@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-- Click [here](https://debbymiressa.github.io/Awesome-Books-With-ES6/) to get started with a live demo
+- Click [here](https://debbymiressa.github.io/Awesome-Books-With-ES6-Syntax/) to get started with a live demo
 
 ## Getting Started
 
