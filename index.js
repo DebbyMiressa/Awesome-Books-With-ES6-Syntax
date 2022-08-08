@@ -1,3 +1,8 @@
+import Book from './modules/book.js';
+import navPages from './modules/navPages.js';
+
+navPages();
+
 const bookForm = document.getElementById('bookForm');
 const titleCheck = document.querySelector('.title-check');
 const authorCheck = document.querySelector('.author-check');

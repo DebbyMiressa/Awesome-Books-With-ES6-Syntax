@@ -1,124 +1,122 @@
-
 html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .container {
-    width: 95%;
-    margin: 1rem auto;
-    text-align: center;
-  }
-  
-  .invalid {
-    color: red;
-  }
-  
-  .title-check {
-    display: none;
-  }
-  
-  .author-check {
-    display: none;
-  }
-  
-  .book-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
-  }
-  
-  .submit-btn {
-    float: right;
-    margin-right: 34.5%;
-  }
-  
-  .dark {
-    background-color: #ddd;
-  }
-  
-  .light {
-    background-color: white;
-  }
-  
-  .divider {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .divider > span {
-    border-bottom: 3px solid black;
-    width: 15%;
-  }
-  
-  .list-item {
-    margin-bottom: 0.7rem;
-    padding: 0 2rem;
-  }
-  
-  .book-list-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .removeBtn {
-    padding: 0.5rem 2rem;
-    margin: 0 2rem;
-  }
-  
-  #author,
-  #title {
-    width: 30%;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    padding: 10px;
-    font-weight: bold;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  #date {
-    float: right;
-  }
-  
-  footer {
-    position: absolute;
-    bottom: 10px;
-    border: 2px solid black;
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
-    width: 93%;
-    margin: 1rem auto;
-  }
-  
-  .contact-items {
-    text-align: left;
-  }
-  
-  .contact-items li {
-    line-height: 3rem;
-  }
-  
-  .contact-wrp {
-    width: 60%;
-    margin: 1rem auto;
-  }
-  
-  .contact-wrp p {
-    line-height: 2rem;
-  }
-  
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.invalid {
+  color: red;
+}
+
+.title-check {
+  display: none;
+}
+
+.author-check {
+  display: none;
+}
+
+.book-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.submit-btn {
+  float: right;
+  margin-right: 34.5%;
+}
+
+.dark {
+  background-color: #ddd;
+}
+
+.light {
+  background-color: white;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+}
+
+.divider > span {
+  border-bottom: 3px solid black;
+  width: 15%;
+}
+
+.list-item {
+  margin-bottom: 0.7rem;
+  padding: 0 2rem;
+}
+
+.book-list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.removeBtn {
+  padding: 0.5rem 2rem;
+  margin: 0 2rem;
+}
+
+#author,
+#title {
+  width: 30%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#date {
+  float: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 93%;
+  margin: 1rem auto;
+}
+
+.contact-items {
+  text-align: left;
+}
+
+.contact-items li {
+  line-height: 3rem;
+}
+
+.contact-wrp {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.contact-wrp p {
+  line-height: 2rem;
+}
